@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: #cdc9e5;
+    font-family: 'Roboto Condensed', sans-serif;
+font-size: 16px;
+line-height: 1.33;
+}
+
+header{  
+   /* position: fixed;*/
+ background-color: #fff;
+ box-shadow: 0 3px 0 0 rgba(0,0,0,.06);
+ width: 100%;
+}
+
+header nav{
+    background-color: transparent;
+    overflow: hidden;
+}
+
+header nav ul li{
+    float: left;
+    list-style: none;
+    padding: 10px 100px;
+    display: block;
+
+}
+
+/*
+header img{
+    max-width: 150px;
+    max-height: 200px;
+    width: 90%;
+    height: 90%;
+    position: fixed;
+
+}
+*/
+
+footer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+footer h4, p{
+    color: white;
+}
