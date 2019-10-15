@@ -43,9 +43,7 @@ header nav ul a:hover{
   
 }
 
-.two, .tree, .four, .five{
-    visibility: hidden;
-}
+
 
 /*
 header img{
@@ -66,4 +64,8 @@ footer{
 
 footer h4, p{
     color: white;
+}
+
+.off{
+    display: none;
 }

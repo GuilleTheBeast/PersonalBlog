@@ -1,9 +1,17 @@
-(function(){
-    let dest = location.hash.slice(1);
-    if(dest){
-        let tab = document.getElementById(dest);
-if (tab){
-    tab.click();
-}
-    }
-})();
+
+window.onload = function(){
+    var days = document.querySelectorAll(".caps");
+    var arts = document.querySelectorAll(".art");
+    days.forEach((item)=>{
+        item.addEventListener("click",()=>{
+            arts.forEach((item)=>{
+                item.classList.add("off");
+            });
+            var on = item.id;
+            
+            var arton = document.querySelector(".art." + on);
+            arton.classList.toggle("off");
+        })
+        
+    });
+};
