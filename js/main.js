@@ -1,17 +1,15 @@
+window.onload = function() {
+  var x = document.querySelectorAll(".caps");
+  var y = document.querySelectorAll(".art");
+  x.forEach(item => {
+    item.addEventListener("click", () => {
+      y.forEach(item => {
+        item.classList.add("off");
+      });
+      var on = item.id;
 
-window.onload = function(){
-    var days = document.querySelectorAll(".caps");
-    var arts = document.querySelectorAll(".art");
-    days.forEach((item)=>{
-        item.addEventListener("click",()=>{
-            arts.forEach((item)=>{
-                item.classList.add("off");
-            });
-            var on = item.id;
-            
-            var arton = document.querySelector(".art." + on);
-            arton.classList.toggle("off");
-        })
-        
+      var z = document.querySelector(".art." + on);
+      z.classList.toggle("off");
     });
+  });
 };

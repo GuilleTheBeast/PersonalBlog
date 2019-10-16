@@ -1,71 +1,167 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-h1{
-    text-align: center;
+h1 {
+  color: white;
+  background-image: url("https://www.oracle.com/asset/web/i/rh02-panel3.jpg");
+  box-sizing: content-box;
+  text-align: center;
+  margin-bottom: 3px;
 }
-
-body{
-    background-color: #cdc9e5;
-    font-family: 'Roboto Condensed', sans-serif;
-font-size: 16px;
-line-height: 1.33;
-}
-
-header{  
-    position: fixed;
- background-color: #fff;
- box-shadow: 0 3px 0 0 rgba(0,0,0,.06);
- width: 100%;
+#one {
+  height: 400px;
+  width: 400px;
 }
 
-header nav{
-    background-color: transparent;
-    overflow: hidden;
-    z-index: 1000;
-    
+#two {
+  height: 400px;
+  width: 500px;
+}
+#tree {
+  height: 400px;
+  width: 800px;
 }
 
-header nav ul li{
-    float: left;
-    padding: 10px 100px;
-    display: block;
-
-}
-header nav ul a{
-    text-decoration: none;
-  
+#four {
+  height: 400px;
+  width: 700px;
 }
 
-header nav ul a:hover{
-    background-color: tomato;
-  
+#five {
+  height: 500px;
+  width: 400px;
 }
 
-
-
-/*
-header img{
-    max-width: 150px;
-    max-height: 200px;
-    width: 90%;
-    height: 90%;
-    position: fixed;
-
-}
-*/
-
-footer{
-    background-color: black;
-    width: 100%;
-    text-align: center;
+body {
+  background-image: url("https://www.oracle.com/asset/web/i/rh02-panel1.jpg");
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 1.33;
 }
 
-footer h4, p{
-    color: white;
+header {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.06);
+  width: 100%;
 }
 
-.off{
-    display: none;
+header nav {
+  background-color: #ef5466;
+  overflow: hidden;
+  z-index: 1000;
+  margin-top: -5px;
+}
+
+h1,
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+header nav ul li {
+  float: left;
+  padding: 10px 100px;
+  display: block;
+}
+header nav ul a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header nav ul a:hover {
+  background-color: plum;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.face-left {
+  position: fixed;
+  align-items: flex-start;
+}
+#fl {
+  height: 150px;
+  width: 120px;
+  border: 1px solid black;
+}
+footer a {
+  cursor: pointer;
+}
+
+.off {
+  display: none;
+}
+
+.art p {
+  text-align: justify;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.art h2 {
+  box-sizing: content-box;
+  margin-bottom: 10px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+article img {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+}
+
+footer {
+  position: relative;
+  box-sizing: content-box;
+  background-color: #32323d;
+  height: 107px;
+  width: 100%;
+  text-align: center;
+}
+
+footer h4,
+p {
+  color: rgb(226, 225, 225);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+footer p {
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+footer h4 {
+  box-sizing: border-box;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.imgs #face,
+#insta {
+  height: 28px;
+  width: 28px;
+}
+.imgs #twit {
+  height: 33px;
+  width: 33px;
+}
+
+.imgs {
+  float: left;
+  display: block;
+  margin: 0px 20px;
+  padding: 3px 0px 0px 0px;
+}
+
+article p {
+  box-sizing: border-box;
+  padding: 0px 40px;
 }
